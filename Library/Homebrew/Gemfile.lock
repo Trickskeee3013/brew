@@ -16,7 +16,7 @@ GEM
       bindata (~> 2)
     erubi (1.13.1)
     hana (1.3.7)
-    json (2.10.2)
+    json (2.11.0)
     json_schemer (2.4.0)
       bigdecimal
       hana (~> 1.3)
@@ -30,10 +30,10 @@ GEM
     method_source (1.1.0)
     minitest (5.25.5)
     netrc (0.11.0)
-    parallel (1.26.3)
+    parallel (1.27.0)
     parallel_tests (5.1.0)
       parallel
-    parser (3.3.7.4)
+    parser (3.3.8.0)
       ast (~> 2.4.1)
       racc
     patchelf (1.5.1)
@@ -98,7 +98,7 @@ GEM
       lint_roller (~> 1.1)
       rubocop (>= 1.75.0, < 2.0)
       rubocop-ast (>= 1.38.0, < 2.0)
-    rubocop-rspec (3.5.0)
+    rubocop-rspec (3.6.0)
       lint_roller (~> 1.1)
       rubocop (~> 1.72, >= 1.72.1)
     rubocop-sorbet (0.10.0)
@@ -160,7 +160,6 @@ GEM
 
 PLATFORMS
   aarch64-linux
-  arm-linux
   arm64-darwin
   x86_64-darwin
   x86_64-linux
